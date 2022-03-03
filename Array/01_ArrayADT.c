@@ -19,7 +19,6 @@ void setvalue(struct myarray *a){
     for(int i = 0 ; i < (*a).used_size; i++){
         printf("Enter the element %d is ", i);
         scanf("%d", &(*a).ptr[i]);
-        // (*a).ptr[i] = n;
     }
 }
 
