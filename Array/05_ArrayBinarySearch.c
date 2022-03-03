@@ -20,7 +20,7 @@ int binarysearch(int arr[], int size, int element){
 int main(){
     int arr[]={1,2,3,4,5,6,7,8};
     int size = sizeof(arr)/sizeof(int);
-    int element = 5; 
+    int element = 2; 
     int result = binarysearch(arr,size,element);
     if(result == -1){
         printf("The element is not exist in the array");
